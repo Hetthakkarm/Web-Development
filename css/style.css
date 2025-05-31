@@ -19,3 +19,9 @@ body {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
 }
+.logo {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
