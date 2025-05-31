@@ -10,10 +10,12 @@
 <body>
 
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container">
-        <img src="images/logo.png" alt="Vero Logo" class="logo" />
-        <h1>VERO</h1>
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" alt="Vero Logo" class="me-2" style="height: 40px;" />
+        <h1 class="h4 mb-0">VERO</h1>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,22 +32,25 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero-section text-center text-white d-flex align-items-center justify-content-center">
-    <div>
-      <h1 class="display-4">Timeless Elegance</h1>
-      <p class="lead">Vintage women's fashion, crafted with class</p>
-      <a href="products.html" class="btn btn-outline-light mt-3">Shop Now</a>
-    </div>
-  </header>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>VERO</h1>
+    <p>Timeless Vintage Fashion for Modern Women</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </div>
+</section>
+
+
 
   <!-- Featured Products -->
-  <section class="py-5">
+  <section class="py-5" id="shop">
     <div class="container text-center">
       <h2 class="mb-4">Featured Collection</h2>
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card border-0 shadow-sm">
-            <img src="images/dress4.png" class="card-img-top" alt="Vintage Dress">
+            <img src="images/dress4.png" class="card-img-top" alt="Vintage Dress 1">
             <div class="card-body">
               <h5 class="card-title">Floral Vintage Dress</h5>
               <p class="card-text">₹1,999</p>
@@ -53,7 +58,29 @@
             </div>
           </div>
         </div>
-        <!-- Add 2 more dummy cards here -->
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm">
+            <img src="images/dress2.png" class="card-img-top" alt="Vintage Dress 2">
+            <div class="card-body">
+              <h5 class="card-title">Classic Midi Dress</h5>
+              <p class="card-text">₹2,499</p>
+              <a href="product-detail.html" class="btn btn-outline-dark btn-sm">View Product</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm">
+            <img src="images/dress3.png" class="card-img-top" alt="Vintage Dress 3">
+            <div class="card-body">
+              <h5 class="card-title">Retro Polka Dress</h5>
+              <p class="card-text">₹1,799</p>
+              <a href="product-detail.html" class="btn btn-outline-dark btn-sm">View Product</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
